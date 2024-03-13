@@ -66,7 +66,7 @@ public class main
 
         Console.WriteLine($"Kondisi karakter saat ini {Enum.GetName(typeof(KarakterState), karakter.currentState)}");
         Console.WriteLine("Command yang tersedia TombolW, TombolS, TombolX, EXIT");
-        Console.Write("Pilih command");
+        Console.Write("Pilih command: ");
         String command = Console.ReadLine();
 
         while (command != "EXIT")
@@ -79,7 +79,7 @@ public class main
             {
                 Console.WriteLine("Command tidak valid");
             }
-            Console.Write("Pilih command");
+            Console.Write("Pilih command: ");
             command = Console.ReadLine();
         }
 
